@@ -8,9 +8,7 @@ const nextConfig = {
     unoptimized: true, // Disable image optimization for static export
   },
   // Set assetPrefix and basePath to your repository name for production
-  assetPrefix: isProd ? '/my-portfolio/' : '',
-  basePath: isProd ? '/my-portfolio' : '',
-
+  assetPrefix: '/my-portfolio',
 };
 
 export default nextConfig;
