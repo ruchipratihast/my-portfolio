@@ -1,5 +1,4 @@
 /** @type {import('next').NextConfig} */
-const isProd = process.env.NODE_ENV === 'production';
 const nextConfig = {
   /* config options here */
   reactCompiler: true,
@@ -7,8 +6,6 @@ const nextConfig = {
   images: {
     unoptimized: true, // Disable image optimization for static export
   },
-  // Set assetPrefix and basePath to your repository name for production
-  assetPrefix: '/my-portfolio',
 };
 
 export default nextConfig;
