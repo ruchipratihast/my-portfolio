@@ -18,7 +18,7 @@ export default function Hero() {
                             <img
                                 src={avatar}
                                 alt={name}
-                                className="object-cover"
+                                className="object-cover w-full h-full"
                             />
                         </div>
                     </div>
