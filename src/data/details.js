@@ -9,7 +9,7 @@ export const cvData = {
             linkedin: "https://www.linkedin.com/in/ruchipratihast/",
             location: "India" // Implicit
         },
-        avatar: "my-portfolio/profile-pic.jpeg",
+        avatar: "/profile-pic.jpeg",
         bio: "Enthusiastic and detail-oriented Full-Stack Developer with hands-on experience in developing scalable web applications and backend systems. Proficient in JavaScript, React.js, Node.js, and MongoDB with a strong foundation in UI/UX design through Flutter. Adapt at working in fast-paced, agile environments and passionate about clean code, efficient systems, and end-user experience."
     },
     education: [

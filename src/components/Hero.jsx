@@ -1,5 +1,4 @@
 import Link from 'next/link';
-import Image from 'next/image';
 import { cvData } from '@/data/details';
 
 export default function Hero() {
@@ -16,12 +15,10 @@ export default function Hero() {
                     <div className="mb-8 relative group">
                         <div className="absolute -inset-1 bg-gradient-to-r from-blue-600 to-purple-600 rounded-full blur opacity-75 group-hover:opacity-100 transition duration-1000 group-hover:duration-200"></div>
                         <div className="relative w-40 h-40 md:w-52 md:h-52 rounded-full overflow-hidden border-4 border-slate-900 bg-slate-800">
-                            <Image
+                            <img
                                 src={avatar}
                                 alt={name}
-                                fill
                                 className="object-cover"
-                                priority
                             />
                         </div>
                     </div>
