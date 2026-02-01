@@ -10,7 +10,7 @@ export const cvData = {
             location: "India" // Implicit
         },
         avatar: "/profile-pic.jpeg",
-        bio: "Enthusiastic and detail-oriented Full-Stack Developer with hands-on experience in developing scalable web applications and backend systems. Proficient in JavaScript, React.js, Node.js, and MongoDB with a strong foundation in UI/UX design through Flutter. Adept at working in fast-paced, agile environments and passionate about clean code, efficient systems, and end-user experience."
+        bio: "Enthusiastic and detail-oriented Full-Stack Developer with hands-on experience in developing scalable web applications and backend systems. Proficient in JavaScript, React.js, Node.js, and MongoDB with a strong foundation in UI/UX design through Flutter. Adapt at working in fast-paced, agile environments and passionate about clean code, efficient systems, and end-user experience."
     },
     education: [
         {
@@ -31,7 +31,6 @@ export const cvData = {
         "React", "Express JS",
         "SQL", "Mongo DB", "Postgresql",
         "Flutter", "Dart",
-        "C", "C++", "Java",
         "Bootstrap", "Chakra UI",
         "Jira",
         "Git and Github",
@@ -41,12 +40,12 @@ export const cvData = {
     ],
     projects: [
         {
-            title: "codecart website & User Panel",
-            description: "Worked in codecart's website & user panel during internship with codecart. Learned to use Next JS, React JS, Git, API, Chakra UI and Clean Code Principles."
+            title: "Multi tenant EHR System",
+            description: "Worked on the backend of a multi tenant EHR System with extended capabilities to handle employess , insurances and dynamic therapy notes."
         },
         {
-            title: "Flutter Apps",
-            description: "Make responsive, adaptive grocery app UI with MVC Principle. Made a responsive Delivery Partner App UI, E Commerce App and Service provider."
+            title: "codecart website & User Panel",
+            description: "Worked in codecart's website & user panel during internship with codecart. Learned to use Next JS, React JS, Git, API, Chakra UI and Clean Code Principles."
         },
         {
             title: "Jobs Listing Application",
@@ -67,41 +66,30 @@ export const cvData = {
             ]
         },
         {
-            company: "Mentation Technology Pvt Ltd",
+            company: "Codecart Infotech Services",
+            role: "Full Stack Developer",
+            duration: "2023-2024",
+            type: "Remote",
+            points: [
+                "Worked on website and user panel using Next JS, React JS, Git, API, Chakra UI and Clean Code Principles."
+            ]
+        },
+        {
+            company: "Mentation technology pvt ltd",
+            role: "Developer Intern and support specialist",
+            duration: "2021-2022",
+            type: "Remote",
+            points: [
+                "Worked on website and user panel using Next JS, React JS, Git, API, Chakra UI and Clean Code Principles."
+            ]
+        },
+        {
+            company: "shriram finances ltd",
             role: "Tech support",
-            duration: "2021-2023",
-            points: [
-                "Provided Tech Support for Printer also worked as flutter app developer and graphic designer."
-            ]
-        }
-    ],
-    internships: [
-        {
-            company: "Flynaut Infotech Pvt. Ltd.",
-            role: "Frontend developer",
-            duration: "Feb 2024 - Sept 2024",
+            duration: "2020-2021",
             type: "Remote",
             points: [
-                "Worked on main website and admin panel using React JS, Next JS"
-            ]
-        },
-        {
-            company: "codecart",
-            role: "Frontend developer", // inferred
-            duration: "Apr 2023 - Jun 2023",
-            type: "Remote",
-            points: [
-                "Worked on website using react and App UI using Flutter"
-            ]
-        },
-        {
-            company: "cuvette",
-            role: "MERN stack development",
-            duration: "Sept 2022 - Feb 2023",
-            type: "Remote",
-            points: [
-                "Learned MERN stack development",
-                "Learned Project management , clean code writing and git tools"
+                "Worked as tech support"
             ]
         }
     ],

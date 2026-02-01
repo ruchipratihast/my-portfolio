@@ -2,7 +2,7 @@ import Section from './Section';
 import { cvData } from '@/data/details';
 
 export default function Experience() {
-    const { experience, internships } = cvData;
+    const { experience } = cvData;
 
     const ExperienceCard = ({ item }) => (
         <div className="glass-card p-6 md:p-8 rounded-2xl mb-6 hover:border-blue-500/30 transition-colors">
@@ -33,13 +33,6 @@ export default function Experience() {
                     <h3 className="text-2xl font-semibold mb-6 text-gray-200 border-b-4 md:border-b-0 md:border-l-4 border-blue-500 pb-2 md:pb-0 md:pl-4 text-center md:text-left">Professional Experience</h3>
                     {experience.map((item, index) => (
                         <ExperienceCard key={`exp-${index}`} item={item} />
-                    ))}
-                </div>
-
-                <div className="mt-8">
-                    <h3 className="text-2xl font-semibold mb-6 text-gray-200 border-b-4 md:border-b-0 md:border-l-4 border-purple-500 pb-2 md:pb-0 md:pl-4 text-center md:text-left">Internships</h3>
-                    {internships.map((item, index) => (
-                        <ExperienceCard key={`int-${index}`} item={item} />
                     ))}
                 </div>
             </div>

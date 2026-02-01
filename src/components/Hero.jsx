@@ -6,7 +6,7 @@ export default function Hero() {
     const { name, role, bio, avatar } = cvData.personalInfo;
 
     return (
-        <div id="about" className="min-h-screen flex items-center justify-center pt-20 px-4 relative overflow-hidden">
+        <div id="about" className="min-h-screen flex items-center justify-center pt-40 px-4 relative overflow-hidden">
             {/* Background decoration */}
             <div className="absolute top-1/4 -left-20 w-80 h-80 bg-blue-600/20 rounded-full blur-[100px] pointer-events-none"></div>
             <div className="absolute bottom-1/4 -right-20 w-80 h-80 bg-purple-600/20 rounded-full blur-[100px] pointer-events-none"></div>
@@ -28,7 +28,7 @@ export default function Hero() {
                 )}
 
                 <h2 className="text-xl md:text-2xl text-blue-400 font-medium mb-4 tracking-wide">Hello, I'm</h2>
-                <h1 className="text-5xl md:text-7xl font-bold mb-6 tracking-tight text-white">
+                <h1 className="text-4xl md:text-6xl font-extrabold mb-4 tracking-tight bg-gradient-to-r from-white via-blue-100 to-purple-200 text-transparent bg-clip-text drop-shadow-[0_0_15px_rgba(59,130,246,0.5)] hover:scale-105 transition-transform duration-300 cursor-default pb-2">
                     {name}
                 </h1>
                 <h3 className="text-2xl md:text-4xl font-semibold mb-8 text-transparent bg-clip-text bg-gradient-to-r from-blue-400 to-purple-500">
