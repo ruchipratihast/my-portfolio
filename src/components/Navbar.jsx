@@ -92,12 +92,14 @@ export default function Navbar() {
                         ))}
                         {resume && (
                             <a
-                                href={`/${resume}`}
+                                href={resume}
                                 download
-                                className="text-blue-400 font-medium block"
-                                onClick={() => setIsOpen(false)}
+                                className="px-8 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-full font-medium transition-all backdrop-blur-sm flex items-center gap-2"
                             >
-                                Download Resume
+                                <svg className="w-5 h-5" fill="none" stroke="currentColor" viewBox="0 0 24 24">
+                                    <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+                                </svg>
+                                Resume
                             </a>
                         )}
                     </div>
