@@ -10,7 +10,8 @@ export const cvData = {
             location: "India" // Implicit
         },
         avatar: "profile-pic.jpeg",
-        bio: "Enthusiastic and detail-oriented Full-Stack Developer with hands-on experience in developing scalable web applications and backend systems. Proficient in JavaScript, React.js, Node.js, and MongoDB with a strong foundation in UI/UX design through Flutter. Adapt at working in fast-paced, agile environments and passionate about clean code, efficient systems, and end-user experience."
+        resume: "ruchi_cv.pdf",
+        bio: "Strategic Backend Developer with Full Stack expertise, currently architecting high-performance server-side solutions. I specialize in building scalable APIs, optimizing database schemas, and leveraging modern runtimes like Bun and Elysia to maximize system efficiency. My passion lies in solving complex architectural challenges and delivering robust, secure, and fast backend infrastructure."
     },
     education: [
         {
@@ -27,16 +28,44 @@ export const cvData = {
         }
     ],
     skills: [
-        "Javascript", "TypeScript",
-        "React", "Express JS",
-        "SQL", "Mongo DB", "Postgresql",
-        "Flutter", "Dart",
-        "Bootstrap", "Chakra UI",
-        "Jira",
-        "Git and Github",
-        "Websocket",
-        "Golang", "elysia js",
-        "Stripe"
+        {
+            category: "Languages",
+            items: [
+                { name: "Javascript", icon: "SiJavascript" },
+                { name: "TypeScript", icon: "SiTypescript" },
+                // { name: "Golang", icon: "SiGo" },
+                { name: "Dart", icon: "SiDart" }
+            ]
+        },
+        {
+            category: "Development",
+            items: [
+                { name: "Next JS", icon: "SiNextdotjs" },
+                { name: "React", icon: "SiReact" },
+                { name: "Express JS", icon: "SiExpress" },
+                { name: "Flutter", icon: "SiFlutter" },
+                { name: "Elysia JS", icon: "SiBun" },
+                { name: "Bootstrap", icon: "SiBootstrap" },
+                { name: "Chakra UI", icon: "SiChakraui" }
+            ]
+        },
+        {
+            category: "Databases",
+            items: [
+                { name: "SQL", icon: "SiMysql" },
+                { name: "Mongo DB", icon: "SiMongodb" },
+                { name: "Postgresql", icon: "SiPostgresql" }
+            ]
+        },
+        {
+            category: "Tools",
+            items: [
+                { name: "Jira", icon: "SiJira" },
+                { name: "Git and Github", icon: "SiGithub" },
+                { name: "Websocket", icon: "SiSocketdotio" },
+                { name: "Stripe", icon: "SiStripe" }
+            ]
+        }
     ],
     projects: [
         {
@@ -55,9 +84,10 @@ export const cvData = {
     experience: [
         {
             company: "Flynaut Infotech Pvt. Ltd.",
-            role: "Full stack developer",
+            role: "Full Stack Developer",
             duration: "Sept 2024 - Present",
-            type: "Remote",
+            type: "Full-Time",
+            tech: ["Typescript", "Elysia JS", "Bun", "Postgresql", "ReactJS", "Node.js", "Express.js", "MongoDB"],
             points: [
                 "Developing and maintaining robust backend services using Node.js and Express.js.",
                 "Collaborating with frontend teams to deliver seamless APIs and integrate business logic.",
@@ -66,28 +96,31 @@ export const cvData = {
             ]
         },
         {
+            company: "Flynaut Infotech Pvt. Ltd.",
+            role: "Front-end Developer",
+            duration: "Feb 2024 - Aug 2024",
+            type: "Internship | Remote",
+            tech: ["ReactJS", "Redux-Toolkit", "Chakra UI"],
+            points: [
+                "Worked on building a Web Application for a client.",
+                "Assisted in debugging and optimizing application performance."
+            ]
+        },
+        {
             company: "Codecart Infotech Services",
-            role: "Full Stack Developer",
+            role: "Front-end Developer",
             duration: "2023-2024",
-            type: "Remote",
+            type: "Internship | Remote",
+            tech: ["NextJS", "ReactJS", "Git", "API", "Bootstrap", "Clean Code Principles", "Flutter UI", "Dart"],
             points: [
-                "Worked on website and user panel using Next JS, React JS, Git, API, Chakra UI and Clean Code Principles."
+                "Worked on website and user panel using Next JS, React JS, Git, API, Bootstrap, Clean Code Principles, Flutter UI and Dart."
             ]
         },
         {
-            company: "Mentation technology pvt ltd",
-            role: "Developer Intern and support specialist",
-            duration: "2021-2022",
-            type: "Remote",
-            points: [
-                "Worked on website and user panel using Next JS, React JS, Git, API, Chakra UI and Clean Code Principles."
-            ]
-        },
-        {
-            company: "shriram finances ltd",
+            company: "Shriram Finances Ltd.",
             role: "Tech support",
-            duration: "2020-2021",
-            type: "Remote",
+            duration: "2021-2022",
+            type: "On-site",
             points: [
                 "Worked as tech support"
             ]
