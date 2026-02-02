@@ -10,7 +10,7 @@ export const cvData = {
             location: "India" // Implicit
         },
         avatar: "profile-pic.jpeg",
-        resume: "ruchi_cv.pdf",
+        resume: "Ruchi_Kumari_Resume.pdf",
         bio: "Strategic Backend Developer with Full Stack expertise, currently architecting high-performance server-side solutions. I specialize in building scalable APIs, optimizing database schemas, and leveraging modern runtimes like Bun and Elysia to maximize system efficiency. My passion lies in solving complex architectural challenges and delivering robust, secure, and fast backend infrastructure."
     },
     education: [
