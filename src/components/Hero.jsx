@@ -49,7 +49,7 @@ export default function Hero() {
                     </Link>
                     {resume && (
                         <a
-                            href={process.env.NODE_ENV === 'production' ? `/my-portfolio/${resume}` : `/${resume}`}
+                            href={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/${resume}`}
                             download
                             className="px-8 py-3 bg-white/10 hover:bg-white/20 text-white border border-white/20 rounded-full font-medium transition-all backdrop-blur-sm flex items-center gap-2"
                         >
