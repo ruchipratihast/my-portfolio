@@ -47,7 +47,7 @@ export default function Hero() {
                     >
                         Contact Me
                     </Link>
-                    {/* {resume && (
+                    {resume && (
                         <a
                             href={resume}
                             download
@@ -58,7 +58,7 @@ export default function Hero() {
                             </svg>
                             Resume
                         </a>
-                    )} */}
+                    )}
                 </div>
             </div>
         </div>
