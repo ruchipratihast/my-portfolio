@@ -90,7 +90,7 @@ export default function Navbar() {
                                 {link.name}
                             </Link>
                         ))}
-                        {/* {resume && (
+                        {resume && (
                             <a
                                 href={resume}
                                 download
@@ -101,7 +101,7 @@ export default function Navbar() {
                                 </svg>
                                 Resume
                             </a>
-                        )} */}
+                        )}
                     </div>
                 </div>
             )}
