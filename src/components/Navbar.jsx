@@ -44,7 +44,7 @@ export default function Navbar() {
                     ))}
                     {resume && (
                         <a
-                            href={`/${resume}`}
+                            href={resume}
                             download
                             className="group flex items-center gap-2 px-6 py-2.5 bg-white/10 hover:bg-white/15 border border-white/10 hover:border-white/25 text-white rounded-full font-medium transition-all duration-300 backdrop-blur-md shadow-lg shadow-black/5"
                         >
